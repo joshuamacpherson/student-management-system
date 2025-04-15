@@ -15,14 +15,14 @@ import java.util.Scanner;
  * 
  */
 public class Student extends Person {
-    final double MAX_MARKS = 100;
-    final double MAX_GPA = 4.0;
-    int studentNumber = 0;
-    String programName;
-    double gpa = 0;
-    double baseFees = 0;
-    double totalFees = 0;
-    int courseCount = 0;
+    protected final double MAX_MARKS = 100;
+    protected final double MAX_GPA = 4.0;
+    protected int studentNumber = 0;
+    protected String programName;
+    protected double gpa = 0;
+    protected double baseFees = 0;
+    protected double totalFees = 0;
+    protected int courseCount = 0;
 
     public Student(String firstName, String lastName, String email,
                    String phoneNumber, String programName, int studentNumber,

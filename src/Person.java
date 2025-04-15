@@ -12,10 +12,10 @@ import java.util.Scanner;
  * this is the superclass of student, storing basic attributes like fname, lname email and phone number
  */
 public class Person {
-    String firstName;
-    String lastName;
-    String email;
-    String phoneNumber;
+    protected String firstName;
+    protected String lastName;
+    protected String email;
+    protected String phoneNumber;
 
 
     public Person(String firstName, String lastName, String email, String phoneNumber) {
